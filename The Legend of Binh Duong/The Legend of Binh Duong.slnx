@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="The Legend of Binh Duong/The Legend of Binh Duong.vcxproj" />
+  <Project Path="The Legend of Binh Duong/The Legend of Binh Duong.vcxproj" Id="4bedf63d-c336-499a-ba6a-e2633360ca89" />
 </Solution>
