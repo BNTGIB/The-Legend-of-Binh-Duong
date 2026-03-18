@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <cstdlib>
+#include <ctime>
 
 #include "Player.h"
 #include "Item.h"
@@ -8,8 +10,22 @@
 
 using namespace std;
 
+void
+
+
+void travel(Player& a) {
+    while (true) {
+        int r = rand() % 100;
+        if (r <= 30) {
+            
+        }
+    }
+    
+}
+
 int main()
 {
+    srand(time(0));
     string name;
     cout << "Your name (or 'x' for defaut name): ";
     getline(cin, name);

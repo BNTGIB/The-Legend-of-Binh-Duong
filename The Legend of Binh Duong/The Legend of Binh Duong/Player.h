@@ -9,8 +9,8 @@ private:
 	string name;
 	int hp, maxHp, level, exp, gold;
 	Item equipped;
-	vector<Item> inventory;
-public:
+	vector<*Item> inventory;
+public:                                       
 	Player(string name = "Player", int hp = 100, int level = 1, int exp = 0, int gold = 100);
 	string getName();
 	int getHp();
