@@ -1,2 +1,3 @@
 ﻿  main.cpp
+D:\My project\The Legend of Binh Duong\The Legend of Binh Duong\The Legend of Binh Duong\main.cpp(57,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   The Legend of Binh Duong.vcxproj -> D:\My project\The Legend of Binh Duong\The Legend of Binh Duong\x64\Debug\The Legend of Binh Duong.exe

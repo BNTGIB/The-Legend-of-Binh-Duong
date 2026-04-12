@@ -5,15 +5,20 @@ class Monster
 {
 private:
 	string name;
-	int hp, maxhp, attack, exp, gold;
+	int hp, maxhp, attack, exp, gold,shield;
 public:
-	Monster(string n, int h, int mh, int a, int e, int g);
-	void getNam();
-	void getHp();
-	void getMaxHp();
-	void getAttack();
-	void getExp();
-	void getGold();
-	void getDamage();
+	Monster(string , int , int , int , int , int , int);
+	string getName();
+	int getHp();
+	int getMaxHp();
+	int getAttack();
+	int getExp();
+	int getGold();
+	int getshield();
+
+	void takeDamage(int);
+	void Info();
+	void Info_combat();
+
 };
 

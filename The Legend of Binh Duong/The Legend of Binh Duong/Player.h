@@ -7,18 +7,23 @@ class Player
 {
 private:
 	string name;
-	int hp, maxHp, level, exp, gold;
+	int hp, maxHp, level, exp, gold, shield, attack;
 	Item equipped;
-	vector<*Item> inventory;
+	//vector<*Item> inventory;
 public:                                       
-	Player(string name = "Player", int hp = 100, int level = 1, int exp = 0, int gold = 100);
+	Player(string, int hp = 100, int level = 1, int exp = 0, int gold = 100, int attack = 10, int shield = 3);
 	string getName();
 	int getHp();
 	int getMaxHP();
 	int getLevel();
 	int getExp();
 	int getGold();
+	int getshield();
+	int getAttack();
+
 
 	void Info();
+	void Info_combat();
+	void takeDamage(int);
 };
 
